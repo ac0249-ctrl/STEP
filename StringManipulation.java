@@ -1,4 +1,4 @@
-public class Week1 {
+public class StringManipulation {
     public static void main(String[] args) {
         String str1 = "Java Programming";
 
