@@ -60,7 +60,6 @@ public class WordLengthTable {
         String[] words = customSplit(input);
         String[][] table = getWordsWithLengths(words);
         System.out.println("\nWord\tLength");
-        System.out.println("-----------------");
         for (int i = 0; i < table.length; i++) {
             String word = table[i][0];
             int length = Integer.parseInt(table[i][1]); 
