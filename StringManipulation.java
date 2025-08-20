@@ -14,12 +14,5 @@ public class StringManipulation {
         System.out.println(str1.equals(str2)); 
         System.out.println(str1.equals(str3));
         System.out.println(str2.equals(str3));
-
-        System.out.println("\nExplanation:");
-        System.out.println("'==' checks if two references point to the same object in memory.");
-        System.out.println("'.equals()' checks if the actual string values are the same.");
-
-        String quote = "Programming Quote:\n\"Code is poetry\" - Unknown\nPath: C:\\Java\\Projects";
-        System.out.println("\n" + quote);
     }
 }
